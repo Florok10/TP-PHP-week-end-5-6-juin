@@ -9,7 +9,7 @@
     /**
       * @param null|void //définit les paramètres comment étant null ou vide
       * @return null|void //retourne des valeurs soit null soit vide
-      * @desc 
+      * @desc //pas trouvé..
     **/
     public function __construct() //création d'une fonction constructrice publique
     {
@@ -22,7 +22,7 @@
     /**
       * @param null|void  //définit les paramètres comment étant null ou vide
       * @return array //retourn retournera un array
-      * @desc 
+      * @desc //pas trouvé..
     **/
     public function getNews() :array //on crée une fonction publique getNews qui retournera donc un array (tableau)
     {
