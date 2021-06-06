@@ -21,7 +21,7 @@
 
     /**
       * @param null|void  //définit les paramètres comment étant null ou vide
-      * @return array //retourn retournera un array
+      * @return array //return retournera un array
       * @desc //pas trouvé..
     **/
     public function getNews() :array //on crée une fonction publique getNews qui retournera donc un array (tableau)
