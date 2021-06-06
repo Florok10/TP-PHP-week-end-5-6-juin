@@ -1,9 +1,9 @@
-<?php require_once('./controller/Dashboard.php'); ?>
+<?php require_once('./controller/Dashboard.php'); //requiert Dashboard.php une fois ?>
 <?php
-  $Dashboard = new Dashboard();
-  $Response = [];
-  $active = $Dashboard->active;
-  $News = $Dashboard->getNews();
+  $Dashboard = new Dashboard(); //on définit la variable $Dashboard comme étant un nouvel objet Dashboard donc on instancie l'objet Dashboard
+  $Response = []; //on définit la variable $Response comme étant un tableau vide
+  $active = $Dashboard->active; //on définit la variable $active comme étant $Dashboard->active
+  $News = $Dashboard->getNews(); //on définit la variable
 ?>
 <?php require('./nav.php'); ?>
 <main role="main" class="container">
