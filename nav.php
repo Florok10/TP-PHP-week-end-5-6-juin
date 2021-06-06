@@ -1,4 +1,4 @@
-<?php require_once('./config.php'); ?>
+<?php require_once('./config.php'); //requiert une fois config.php ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
